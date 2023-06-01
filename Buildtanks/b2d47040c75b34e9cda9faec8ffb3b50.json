@@ -1,9 +1,9 @@
 {
 "companyName": "EthanStudios",
 "productName": "Neon Tanks alpha",
-"dataUrl": "629d40e776ea92a4a5f16c2666865b83.unityweb",
-"wasmCodeUrl": "ce6e787d8806cab301cc9e7b1d98afa0.unityweb",
-"wasmFrameworkUrl": "e93a796dc9d3695b58cbee29af722464.unityweb",
+"dataUrl": "83717f18e87b06868101576b293bc1fe.unityweb",
+"wasmCodeUrl": "40c641aa227042f2aaea425083e43958.unityweb",
+"wasmFrameworkUrl": "8d13f2bfa29e60f3f370618adf8ab880.unityweb",
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
