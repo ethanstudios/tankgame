@@ -13,9 +13,9 @@
 			location.href =   location.href.replace("https://", "http://");
 		}
 		
-		function openFullscreen() {
-			document.getElementById("fullscreen").style.left=parseInt(document.getElementById("fullscreen").style.left)-100 +'%';
-		}
+		//function openFullscreen() {
+		//	document.getElementById("fullscreen").style.left=parseInt(document.getElementById("fullscreen").style.left)-100 +'%';
+		//}
     </script>
   </head>
   <body>
@@ -36,7 +36,7 @@
 	left: 0;
 	right: 0;">
 		
-		<div style="height:20px; width: %UNITY_WIDTH%px; background: green;" onclick="unityInstance.SetFullscreen(1) openFullscreen()"><b>Click here to make it full screen.</b></div>
+		<div style="height:20px; width: %UNITY_WIDTH%px; background: green;" onclick="unityInstance.SetFullscreen(1) " onclick="openFullscreen()"><b>Click here to make it full screen.</b></div>
     </div>
   </body>
 </html>
