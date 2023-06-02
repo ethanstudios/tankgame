@@ -14,10 +14,7 @@
 		}
 		
 		function openFullscreen() {
-			gameInstance.SetFullscreen(1);
 			document.getElementById("fullscreen").style.left=parseInt(document.getElementById("fullscreen").style.left)-100 +'%';
-  
-
 		}
     </script>
   </head>
@@ -38,7 +35,8 @@
 	margin: 0;
 	left: 0;
 	right: 0;">
-		<button onclick="openFullscreen();">Open Game in Fullscreen Mode</button>
+		
+		<div style="height:20px; width: %UNITY_WIDTH%px; background: green;" onclick="unityInstance.SetFullscreen(1) openFullscreen()"><b>Click here to make it full screen.</b></div>
     </div>
   </body>
 </html>
