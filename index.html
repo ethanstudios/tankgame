@@ -13,8 +13,12 @@
 	  if(window.location.protocol != 'http:') {
 			location.href =   location.href.replace("https://", "http://");
 		}*/
-		if(location.href != 'http://tankgame.ethanstockton.com') {
-			location.href =   location.href.replace(location.href, "http://tankgame.ethanstockton.com");
+		if(window.location.protocol == 'https:') {
+			
+			alert("Ethan's Tank Game requires a http connection, and does not work with https, due to a chrome update you will need to manually change the url to a http address");
+			if(window.location.protocol != 'http:') {
+				location.href = location.href.replace("https://", "http://");
+			}
 		}
 
     </script>
