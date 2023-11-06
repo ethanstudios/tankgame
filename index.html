@@ -9,9 +9,14 @@
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Buildtanks/67871e180b1ab1f50998fac5a389842f.json");
 	  
+	  /*
 	  if(window.location.protocol != 'http:') {
 			location.href =   location.href.replace("https://", "http://");
+		}*/
+		if(location.href != 'http://tankgame.ethanstockton.com/') {
+			location.href =   location.href.replace(location.href, "http://tankgame.ethanstockton.com/");
 		}
+
     </script>
   </head>
   <body>
